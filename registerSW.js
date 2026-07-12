@@ -1,1 +1,0 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/quant-remote/sw.js', { scope: '/quant-remote/' })})}
